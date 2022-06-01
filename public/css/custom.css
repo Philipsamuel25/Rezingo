@@ -1,0 +1,49 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+@font-face {
+	font-family:AdiHaus-Bold;
+	src: url(../fonts/AdiHaus-Bold.ttf);
+  }
+ 
+  @font-face {
+	font-family:AdihausDIN-Regular;
+	src: url(../fonts/AdihausDIN-Regular.ttf);
+  }
+  @font-face {
+	font-family:AdihausDIN-Bold;
+	src: url(../fonts/AdihausDIN-Bold.ttf);
+  }
+  @font-face {
+	font-family:AdihausDIN-CnMediumItalic;
+	src: url(../fonts/AdihausDIN-CnMediumItalic.ttf);
+  }
+  @font-face {
+	font-family:adihausregular;
+	src: url(../fonts/adihausregular.ttf);
+  }
+  @font-face {
+	font-family:adineuePRO-BlackWeb;
+	src: url(../fonts/adineuePRO-BlackWeb.ttf);
+  }
+  
+  @font-face {
+	font-family:adineuePRO-Bold;
+	src: url(../fonts/adineuePRO-Bold.ttf);
+  }
+  @font-face {
+	font-family:adineuePRO-Regular;
+	src: url(../fonts/adineuePRO-Regular.ttf);
+  }
+  @font-face {
+	font-family:Montserrat-Black;
+	src: url(../fonts/Montserrat-Black.ttf);
+  }
+  @font-face {
+	font-family:Montserrat-ExtraLight;
+	src: url(../fonts/Montserrat-ExtraLight.ttf);
+  }

@@ -3,11 +3,18 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import {  BrowserRouter as Router} from "react-router-dom";
+import { RecoilRoot } from 'recoil';
+import { fakeBackend } from './_helpers';
+fakeBackend();
 ReactDOM.render(
-  <React.StrictMode>
+<Router>
+<React.StrictMode>
+        <RecoilRoot>
     <App />
-  </React.StrictMode>,
+    </RecoilRoot>
+    </React.StrictMode>,
+    </Router>,
   document.getElementById('root')
 );
 

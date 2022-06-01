@@ -1,0 +1,121 @@
+
+/*--------------------------------------------------------------
+# Fonts Start
+--------------------------------------------------------------*/
+/* */
+  /*--------------------------------------------------------------
+# Fonts End
+--------------------------------------------------------------*/
+  /*--------------------------------------------------------------
+# Login Start
+--------------------------------------------------------------*/
+
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+ .divide-left {
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+.divide-left+p{
+color:#000;
+}
+.form__section
+{
+  margin: 140px 0px;
+}
+.form_block
+{
+border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 50px;
+    width: 66%;
+    margin: 0 auto;
+}
+@media (max-width: 450px) {
+  .h-custom {
+    height: 100%;
+  }
+}
+.form-left
+{
+    padding-right: 65px;
+}
+.form_block p{
+    font-family: 'Poppins', sans-serif;
+}
+.form_block input::placeholder{
+font-size:14px;
+  font-family: 'Poppins', sans-serif;
+}
+input#form2Example3
+{
+    border-radius: 0px;
+    border: 0.125rem solid #757575;
+}
+label.form-check-label {
+    margin-bottom: 0px !important;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 0.3px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+.form_block .text-body{
+font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 0.3px;
+}
+.form_block button{
+background:#000;
+color:#fff;
+border: 1px solid #000;
+}	
+.form_block button:hover{
+  color: #fff;
+  transform: none;
+}
+.social-links a {
+  transition: .3s ease;
+  -moz-transition: .3s ease;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.social-links a:last-child{
+  margin-right: 0px;
+}
+.social-links a:hover{
+  opacity: 0.7;
+}
+
+.form-h{
+  margin-bottom: 15px;
+}
+.form__section .pw-valid{
+  position: relative;
+}
+.form__section .pw-valid span.text-danger svg
+{
+  position: absolute;
+    top: 16px;
+    right: 10px;
+}
+.form_block .small {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}
+.form_block .small a{
+  margin-left: 5px;
+}
+ /*--------------------------------------------------------------
+# Login End
+--------------------------------------------------------------*/

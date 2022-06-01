@@ -1,43 +1,312 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+	<meta name="author" content="" />
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,400italic,600,700|Playfair+Display:400,400italic,700|Lato:300,400,700&display=swap" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="./css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="./css/style.css" type="text/css" />
+	<link rel="stylesheet" href="./css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="./css/swiper.css" type="text/css" />
+	<link rel="stylesheet" href="./css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="./css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="./css/magnific-popup.css" type="text/css" />
+	<link rel="stylesheet" href="./demos/gym/css/fonts.css" type="text/css" />
+    <link rel="stylesheet" href="./demos/landing/landing.css" type="text/css" />
+	<link rel="stylesheet" href="./css/components/bs-switches.css" type="text/css" />
+	<link rel="stylesheet" href="./css/custom.css" type="text/css" />
+	<link rel="stylesheet" href="./demos/gym/gym.css" type="text/css" />
+	<link rel="stylesheet" href="./css/colors.php?color=18b3d1" type="text/css" />
+	<link rel="stylesheet" href="./css/login.css" type="text/css" />
+	
+	<title>Rezingo</title>
+  
+	<style>
+	
+	.card2{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  /*padding: 14px 40px 18px 36px;*/
+  cursor: pointer;
+}
+/* .owl-stage-outer-bg{
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+display:none;
+
+} */
+.card2:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.card h3{
+  font-weight: 600;
+}
+
+/* .card-img-top{
+	height: 200px;
+} */
+
+/*
+.card img{
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  max-height: 120px;
+}
+*/
+/*
+@media(max-width: 990px){
+  .card{
+    margin: 10px;
+  }
+} */
+
+
+/* .menu-link{
+text-transform:uppercase;
+} */
+		
+	</style>
+	
   </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+  <body class="stretched">
+	<div class="body-overlay"></div>
+
+	<!-- <div id="side-panel" class="dark">
+
+		<div id="side-panel-trigger-close" class="side-panel-trigger"><a href="#"><i class="icon-line-cross"></i></a></div>
+
+		<div class="side-panel-wrap">
+
+			<div class="widget widget_links clearfix">
+
+				<h4>Your Cart items</h4>
+
+				<div class="top-cart-items">
+					<div class="top-cart-item">
+						<div class="top-cart-item-image">
+							<a href="#"><img src="images/p1.jpg" alt="Sample product2" /></a>
+						</div>
+						<div class="top-cart-item-desc">
+							<div class="top-cart-item-desc-title">
+								<a href="product.html">Sample product</a>
+								<span class="top-cart-item-price d-block">$19.99</span>
+							</div>
+							<div class="top-cart-item-quantity">x 2</div>
+						</div>
+					</div>
+					<div class="top-cart-item">
+						<div class="top-cart-item-image">
+							<a href="product.html"><img src="images/p2.jpg" alt="Sample product2" /></a>
+						</div>
+						<div class="top-cart-item-desc">
+							<div class="top-cart-item-desc-title">
+								<a href="#">Sample product2</a>
+								<span class="top-cart-item-price d-block">$24.99</span>
+							</div>
+							<div class="top-cart-item-quantity">x 3</div>
+						</div>
+					</div>
+				</div>
+				<div class="top-cart-action">
+					<span class="top-checkout-price">$114.95</span>
+					<a href="cart.html" class="button button-3d button-small m-0">Shop Now</a>
+				</div>
+
+			</div>
+
+			
+
+		</div>
+
+	</div> -->
+
+	<div id="wrapper" class="clearfix">
+	
+		
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+</div>
+	<footer id="footer" class="light">
+		<div class="container">
+			<!-- Footer Widgets
+			============================================= -->
+			<div class="footer-widgets-wrap">
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+				<div class="row col-mb-50">
+					<div class="col-md-6 col-lg-4">
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+						<div class="widget clearfix">
+
+							<!--<img src="images/footer-widget-logo.png" alt="Image" class="footer-logo">-->
+							<h3>Rezingo</h3>
+
+							<p>Welcome to Rezingo. We are a health and wellness application unlike any other. We curate health and wellness programs from practitioners all over the world to matching to each of our customer’s individual health and wellness needs.</p>
+
+
+						</div>
+
+					</div>
+
+					<div class="col-md-6 col-lg-4 ps-5">
+
+						<div class="widget clearfix">
+							<h4>Information</h4>
+
+							<div class="widget_links">
+									<ul>
+										<li><a href="#">Get Started</a></li>
+										<li><a href="#">About Rezingo</a></li>
+										<li><a href="#">Contact Us</a></li>
+										
+									</ul>
+								</div>
+
+						</div>
+
+						<div class="widget clearfix">
+
+							<a href="#" class="social-icon si-small si-rounded si-facebook">
+								<i class="icon-facebook"></i>
+								<i class="icon-facebook"></i>
+							</a>
+
+							<a href="#" class="social-icon si-small si-rounded si-twitter">
+								<i class="icon-twitter"></i>
+								<i class="icon-twitter"></i>
+							</a>
+
+							<a href="#" class="social-icon si-small si-rounded si-google">
+								<i class="icon-google"></i>
+								<i class="icon-google"></i>
+							</a>
+
+							<a href="#" class="social-icon si-small si-rounded si-instagram">
+								<i class="icon-instagram"></i>
+								<i class="icon-instagram"></i>
+							</a>
+
+							<!-- <a href="#" class="social-icon si-small si-rounded si-vimeo">
+								<i class="icon-vimeo"></i>
+								<i class="icon-vimeo"></i>
+							</a>
+
+							<a href="#" class="social-icon si-small si-rounded si-github">
+								<i class="icon-github"></i>
+								<i class="icon-github"></i>
+							</a>
+
+							<a href="#" class="social-icon si-small si-rounded si-yahoo">
+								<i class="icon-yahoo"></i>
+								<i class="icon-yahoo"></i>
+							</a>
+
+							<a href="#" class="social-icon si-small si-rounded si-linkedin">
+								<i class="icon-linkedin"></i>
+								<i class="icon-linkedin"></i>
+							</a> -->
+
+						</div>
+
+					</div>
+
+					<div class="col-md-6 col-lg-4">
+
+						<div class="widget quick-contact-widget form-widget clearfix">
+
+							<h4>Send Message</h4>
+
+							<div class="form-result"></div>
+
+							<form id="quick-contact-form" name="quick-contact-form" action="include/form.php" method="post" class="quick-contact-form mb-0">
+
+								<div class="form-process">
+									<div class="css3-spinner">
+										<div class="css3-spinner-scaler"></div>
+									</div>
+								</div>
+
+								<div class="input-group mx-auto">
+									<div class="input-group-text"><i class="icon-user"></i></div>
+									<input type="text" class="required form-control" id="quick-contact-form-name" name="quick-contact-form-name" value="" placeholder="Full Name" />
+								</div>
+								<div class="input-group mx-auto">
+									<div class="input-group-text"><i class="icon-email2"></i></div>
+									<input type="text" class="required form-control email" id="quick-contact-form-email" name="quick-contact-form-email" value="" placeholder="Email Address" />
+								</div>
+								<textarea class="required form-control input-block-level short-textarea" id="quick-contact-form-message" name="quick-contact-form-message" rows="4" cols="30" placeholder="Message"></textarea>
+								<input type="text" class="d-none" id="quick-contact-form-botcheck" name="quick-contact-form-botcheck" value="" />
+								<input type="hidden" name="prefix" value="quick-contact-form-">
+								<button type="submit" id="quick-contact-form-submit" name="quick-contact-form-submit" class="button button-rounded m-0" value="submit">Send Email</button>
+
+							</form>
+
+						</div>
+
+					</div>
+				</div>
+
+			</div><!-- .footer-widgets-wrap end -->
+		</div>
+
+		<!-- Copyrights
+		============================================= -->
+		<div id="copyrights" >
+			<div class="container" class="dark">
+
+				<div class="row justify-content-between">
+					<div class="col-12 col-lg-auto text-center text-lg-start">
+						<p class="mb-1">Copyrights &copy; 2022 All Rights Reserved.</p>
+					</div>
+
+					<div class="col-12 col-lg-auto text-center text-lg-end">
+						<div class="copyrights-menu copyright-links mb-0">
+							<a href="#">Privacy Policy</a>/<a href="#">Terms and Conditions </a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div><!-- #copyrights end -->
+	</footer><!-- #footer end -->
+	
+
+    <!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-angle-up"></div>
+  
+	
+
+	<!-- Footer Scripts
+	============================================= -->
+<!-- 	
+	<script src="./js/jquery.js"></script> -->
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" ></script>
+	<script src="./js/plugins.min.js"></script>
+	<script src="./js/components/event.move.js"></script>
+	<script src="./js/components/image-changer.js"></script>
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script src="./js/functions.js"></script>
+
+	<script>
+		jQuery(window).on( 'load', function(){
+			$(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({default_offset_pct: 0.7});
+		});
+	</script>
+	
+	<script>
+		jQuery(window).on( 'pluginCarouselReady', function(){
+			setTimeout( function(){
+				$('.owl-stage').after('<div class="owl-stage-outer-bg"></div>');
+			}, 1000 );
+		});
+	</script>
+	
   </body>
 </html>
