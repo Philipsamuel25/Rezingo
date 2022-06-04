@@ -3,16 +3,13 @@ pipeline {
   stages {
     stage('Build') {
       steps {
+        sh 'npm install'
+        sh 'npm build'
         echo 'Building'
       }
   }
      stage('Test') {
-       when{
-         expression{
-           BRANCH_NAME == 'master'
-         }
-       }
-      steps {
+       steps {
         echo 'Testing'
       }
   }
